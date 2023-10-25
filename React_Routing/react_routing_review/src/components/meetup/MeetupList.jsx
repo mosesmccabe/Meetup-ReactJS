@@ -11,7 +11,7 @@ function MeetupList(props) {
                     image={item.image}
                     title={item.title}
                     address={item.address}
-                    disc={item.description}
+                    description={item.description}
                  />
             )}
         </ul>

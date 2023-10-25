@@ -12,10 +12,12 @@ function App() {
     <Layout>
       <Routes>
         <Route path='/' element={<AllMeetUp />} />
+        <Route path='/Meetup-ReactJS/' element={<AllMeetUp />} />
         <Route 
           path='/favorites'
           element={<Favorites />}
         />
+        
         <Route 
           path='/new-meetup'
           element={<NewMeetUP />}
